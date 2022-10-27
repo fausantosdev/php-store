@@ -1,0 +1,13 @@
+{
+    "name": "fausantosdev/php-store",
+    "description": "Simple webshop with php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fausantosdev",
+            "email": "fausantosdev@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
