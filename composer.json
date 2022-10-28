@@ -9,5 +9,15 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\": "App/Controllers",
+            "App\\Interfaces\\": "App/Interfaces",
+            "App\\Repositories\\": "App/Repositories",
+            "App\\Classes\\": "App/Classes"
+        }
+    },
+    "require": {
+        "symfony/var-dumper": "^5.4"
+    }
 }
